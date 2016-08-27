@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app="passwordStylerApp">
+<head>
+	<title> Iphone style password input experience </title>
+</head>
+<body>
+	<h1> Angular custom directive for iphone style password input.</h1>
+	<h2> Password will be masked with dots as soon as the key being pressed, is released.</h2>
+	<h3> Input element.val property should be used instead of element.value, to submit.</h3>
+	<div ng-view>
+		<input password-styler="" type="text" autocomplete="off" />
+	</div>
+	<script src="js/angular.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/passwordStyler.js"></script>
+</body>
+</html>
